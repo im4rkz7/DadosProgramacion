@@ -5,9 +5,12 @@ using namespace std;
 
 void unJugador()
 {
- cout<<"INGRESE EL NOMBRE DEL JUGADOR: ";
+
  string nombreJugadorUno;
- cin>>nombreJugadorUno;
+ cout<<"INGRESE EL NOMBRE DEL JUGADOR: ";
+ cin.ignore();
+getline(cin,nombreJugadorUno);
+
 
 
 
@@ -18,8 +21,8 @@ void unJugador()
 }
 void dosJugadores()
 {
-cout<<"INGRESE EL NOMBRE DE PRIMER JUGADOR: ";
 string nombreJugadorUno;
+cout<<"INGRESE EL NOMBRE DE PRIMER JUGADOR: ";
 cin>>nombreJugadorUno;
 
 cout<<"INGRESE EL NOMBRE DEL SEGUNDO JUGADOR: ";
