@@ -4,8 +4,8 @@
 using namespace std;
 
 void unJugador(){cout<<"1 jugador";}
-void dosJugadores(){cout<<"1 jugador";};
-void puntuacionMax(){cout<<"1 jugador";};
+void dosJugadores(){cout<<"2 jugador";};
+void puntuacionMax(){cout<<"esta es la puntuacion max";};
 
 int tirarDado();
 void generarTirada();
@@ -24,7 +24,7 @@ int main()
     cout<<"1. JUEGO PARA UN JUGADOR: "<<endl;
     cout<<"2. JUEGO PARA DOS JUGADORES: "<<endl;
     cout<<"3. MOSTRAR PUNTUACION MAS ALTA: "<<endl;
-    cout<<"SALIR DEL JUEGO: "<<endl;
+    cout<<"4. SALIR DEL JUEGO: "<<endl;
 
     cin>>eleccion;
 
