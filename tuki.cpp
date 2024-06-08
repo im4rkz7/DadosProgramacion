@@ -9,7 +9,8 @@
 /// getline(cin, nombre)   lo que hacemos fue usar el flujo cin, y guardar el string
 /// en la variable nombre.
 /// antes del getline, si tenemos un cin, debemos utilizar un cin.ignore();
-/// system cls para recargar
+/// system cls para recargar el menu
+/// SYSTEM("pause") para ver menu
 
 
 #include <iostream>
