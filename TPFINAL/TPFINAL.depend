@@ -8,3 +8,23 @@
 1717805214 source:c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\nuestrasfunciones.cpp
 	"NUESTRASFUNCIONES.h"
 
+1717805962 source:c:\users\family\documents\github\dadosprogramacion\tpfinal\nuestrasfunciones.cpp
+	"NUESTRASFUNCIONES.h"
+
+1718405017 c:\users\family\documents\github\dadosprogramacion\tpfinal\nuestrasfunciones.h
+
+1718404355 source:c:\users\family\documents\github\dadosprogramacion\tpfinal\main.cpp
+	<iostream>
+	"NUESTRASFUNCIONES.h"
+	"menu.h"
+	<ctime>
+
+1718404855 c:\users\family\documents\github\dadosprogramacion\tpfinal\menu.h
+	<iostream>
+	"NUESTRASFUNCIONES.h"
+
+1718404855 source:c:\users\family\documents\github\dadosprogramacion\tpfinal\menu.cpp
+	<iostream>
+	<cstdlib>
+	"menu.h"
+
