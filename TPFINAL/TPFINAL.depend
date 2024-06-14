@@ -28,3 +28,24 @@
 	<cstdlib>
 	"menu.h"
 
+1718405212 source:c:\users\usuario\documents\github\dadosprogramacion\tpfinal\main.cpp
+	<iostream>
+	"NUESTRASFUNCIONES.h"
+	"menu.h"
+	<ctime>
+
+1718408415 c:\users\usuario\documents\github\dadosprogramacion\tpfinal\nuestrasfunciones.h
+
+1718406074 c:\users\usuario\documents\github\dadosprogramacion\tpfinal\menu.h
+	<iostream>
+	"NUESTRASFUNCIONES.h"
+
+1718405212 source:c:\users\usuario\documents\github\dadosprogramacion\tpfinal\menu.cpp
+	<iostream>
+	<cstdlib>
+	"menu.h"
+
+1718407211 source:c:\users\usuario\documents\github\dadosprogramacion\tpfinal\nuestrasfunciones.cpp
+	"NUESTRASFUNCIONES.h"
+	<iostream>
+

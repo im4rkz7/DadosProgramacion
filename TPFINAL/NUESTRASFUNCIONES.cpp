@@ -8,10 +8,16 @@ using namespace std;
 void unJugador()
 {
 
+    int vec[6];
     string nombreJugadorUno;
     cout<<"INGRESE EL NOMBRE DEL JUGADOR: ";
     cin.ignore();
     getline(cin,nombreJugadorUno);
+
+    cout<<"SU PRIMERA TIRADA ES: "  << endl;
+    generarTirada(vec);
+    mostrarTirada(vec);
+
 
 
 ///AL FINAL DE LA PARTIDA:
@@ -48,6 +54,25 @@ void puntuacionMax()
     cout<<"----------------------------"<<endl;
 };
 
-int tirarDado();
-void generarTirada();
-void mostrarTirada();
+int tirarDado(){
+
+return rand() % 6 + 1;
+
+}
+
+
+void generarTirada(int v[6])
+{
+    for (int i= 0; i < 6; i++)
+    {
+        v[i] = tirarDado();
+    }
+}
+
+void mostrarTirada(int v[6]){
+
+for (int i= 0; i < 6; i++)
+
+    cout << v[i] << " ";
+}
+

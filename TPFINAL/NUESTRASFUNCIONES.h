@@ -6,8 +6,8 @@ void dosJugadores();
 void puntuacionMax();
 
 int tirarDado();
-void generarTirada();
-void mostrarTirada();
+void generarTirada(int vec[]);
+void mostrarTirada(int vec[]);
 
 
 #endif // NUESTRASFUNCIONES_H_INCLUDED
