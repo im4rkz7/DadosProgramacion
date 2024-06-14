@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1718399553 source:c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\main.cpp
+	<iostream>
+	"NUESTRASFUNCIONES.h"
+
+1717805214 c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\nuestrasfunciones.h
+
+1717805214 source:c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\nuestrasfunciones.cpp
+	"NUESTRASFUNCIONES.h"
+
