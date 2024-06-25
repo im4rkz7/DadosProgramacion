@@ -1,12 +1,15 @@
 # depslib dependency file v1.0
-1718400286 source:c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\main.cpp
+1718405236 source:c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\main.cpp
 	<iostream>
 	"NUESTRASFUNCIONES.h"
+	"menu.h"
+	<ctime>
 
-1717805214 c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\nuestrasfunciones.h
+1719352906 c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\nuestrasfunciones.h
 
-1717805214 source:c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\nuestrasfunciones.cpp
+1719352912 source:c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\nuestrasfunciones.cpp
 	"NUESTRASFUNCIONES.h"
+	<iostream>
 
 1717805962 source:c:\users\family\documents\github\dadosprogramacion\tpfinal\nuestrasfunciones.cpp
 	"NUESTRASFUNCIONES.h"
@@ -48,4 +51,13 @@
 1718407211 source:c:\users\usuario\documents\github\dadosprogramacion\tpfinal\nuestrasfunciones.cpp
 	"NUESTRASFUNCIONES.h"
 	<iostream>
+
+1718406081 c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\menu.h
+	<iostream>
+	"NUESTRASFUNCIONES.h"
+
+1718405236 source:c:\users\marcos\desktop\programacion 1\dadosprogramacion\tpfinal\menu.cpp
+	<iostream>
+	<cstdlib>
+	"menu.h"
 

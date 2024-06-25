@@ -18,7 +18,12 @@ void unJugador()
     generarTirada(vec);
     mostrarTirada(vec);
 
+    cout<< ""<< endl;
 
+    cout << sumaTirada(vec)<< endl;
+}
+
+}
 
 ///AL FINAL DE LA PARTIDA:
     cout<<nombreJugadorUno<<endl;
@@ -75,4 +80,28 @@ for (int i= 0; i < 6; i++)
 
     cout << v[i] << " ";
 }
+
+int sumaTirada(int v[6]){
+int contador=0;
+
+for (int i= 0; i < 6; i++){
+
+contador+= v[i];
+
+}
+return contador;
+
+
+}
+
+void escalera(int v[6]){
+int contador=0;
+
+for (int i= 0; i < 6; i++){
+
+    for (int x=)
+
+}
+
+
 
