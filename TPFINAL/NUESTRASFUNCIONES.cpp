@@ -18,18 +18,21 @@ void unJugador()
     generarTirada(vec);
     mostrarTirada(vec);
 
+
+    ///muestra la tirada sumada (meterlo en un else como ultima combinacion posible)
     cout<< ""<< endl;
 
     cout << sumaTirada(vec)<< endl;
-}
 
-}
+
+
 
 ///AL FINAL DE LA PARTIDA:
-    cout<<nombreJugadorUno<<endl;
-    cout<<"PUNTUACION FINAL"<<endl; ///<< aca iria la puntuacion final (funcion)
 
+    cout<< nombreJugadorUno <<endl;
+    cout<< "PUNTUACION FINAL" <<endl; ///<< aca iria la puntuacion final (funcion)
 }
+
 
 
 void dosJugadores()
@@ -80,7 +83,7 @@ for (int i= 0; i < 6; i++)
 
     cout << v[i] << " ";
 }
-
+///esto suma la tirada (ponerlo como un else a la primera combinacion)
 int sumaTirada(int v[6]){
 int contador=0;
 
@@ -93,14 +96,17 @@ return contador;
 
 
 }
-
-void escalera(int v[6]){
+/// escalera (verlo)
+void buscaRepetido(int v[6]){
 int contador=0;
 
 for (int i= 0; i < 6; i++){
+        if  (v[6] != i ){
+            contador++;
+        }
 
-    for (int x=)
 
+}
 }
 
 
