@@ -9,6 +9,7 @@ int tirarDado();
 void generarTirada(int vec[]);
 void mostrarTirada(int vec[]);
 int sumaTirada(int vec[]);
+void buscaRepetido();
 
 
 

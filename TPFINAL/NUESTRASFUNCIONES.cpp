@@ -98,6 +98,7 @@ return contador;
 }
 /// escalera (verlo)
 void buscaRepetido(int v[6]){
+
 int contador=0;
 
 for (int i= 0; i < 6; i++){
@@ -107,7 +108,15 @@ for (int i= 0; i < 6; i++){
 
 
 }
+
 }
 
+bool contadorRepetidos(){
 
+for (int i= 0; i < 6; i++){
+int m=v[i];
 
+c = buscaRepetido()
+
+}
+}

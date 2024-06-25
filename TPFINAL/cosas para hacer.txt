@@ -1,0 +1,10 @@
+hacer las combinanaciones
+Suma de dados si hay menos de 6 dados con valores iguales
+
+si hay 6 dados iguales (que no sean 6) 	= x *10
+
+escalera gana partida
+
+seis 6 iguales resetea puntaje
+
+lo mismo pero en 2 jugadores, llamar esas funciones
